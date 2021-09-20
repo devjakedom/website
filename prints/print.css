@@ -1,0 +1,67 @@
+.contentWrapper{
+    display: flex;
+    justify-content: center;
+}
+
+section div.panel {
+    float: left;
+    position: relative;
+    width: 282px;
+    margin: 0 0.5em 2.0em 0.5em;
+   
+    background-color:  lightseagreen;
+    border: #212121 solid -3em;
+    border-radius: -3em;
+
+}
+section div.panel img.squarePrint{
+   width: 100%;
+}
+
+button{ 
+    color: white;
+    background-color: black;
+    display: inline-block;
+    margin: 0 0 0 0;
+    padding: 0.7em 1.2em;
+    border: 3px solid #c64322;
+    text-transform: uppercase;
+}
+button:hover {
+    background-color: #fbf3db;
+    border: 1px solid #745b2f;
+}
+body{
+    background: url(pics/purple-corn.jpg);
+}
+nav{
+    color: #000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.7em;
+    letter-spacing: 0.04em;
+    padding: 1.0em 1.0em 0.5em;
+    margin: 1.0em 0;
+    text-align: center;
+   
+}
+
+
+
+nav ul{
+    margin: 0;
+}
+nav li{
+    display: inline-block;
+    margin: 0;
+
+}
+nav li a, nav li a:visited{
+    text-decoration: none;
+    color: white;
+    padding: 0.3em 0.6em;
+
+}
+nav li a:hover{
+    color: lightseagreen;
+    background-color: rgba(252, 251, 243, 0.75);
+}
